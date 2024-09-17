@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Избранное</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <header class="rounded"> 
+        <h1>Кинопоиск</h1> 
+        <nav class="darckBg"> 
+            <a href="./index.html">Главная</a>
+            <a class="active" href="#">Избраное</a>
+        </nav> 
+            <img src="./img/themeChange.svg" class="themeChange" alt="hemeChange"> 
+    </header> 
+    <div class="similarMovieTitle darckBg"> 
+            <h2>Фильмы в избранном: 0</h2> 
+        </div> 
+        <div class="similarMovie rounded"> 
+            <div class="similarMovieCard"> 
+                <div class="save saved"><img src="./img/favBtn.svg" alt=""></div> 
+                <div class="similarMovieText">Iron sky</div> 
+            </div> 
+            <div class="similarMovieCard"> 
+                <div class="save"><img src="./img/favBtn.svg" alt=""></div> 
+                <div class="similarMovieText">Iron sky</div> 
+            </div> 
+            <div class="similarMovieCard"> 
+                <div class="save"><img src="./img/favBtn.svg" alt=""></div> 
+                <div class="similarMovieText">Iron sky</div> 
+            </div> 
+            <div class="similarMovieCard"> 
+                <div class="save"><img src="./img/favBtn.svg" alt=""></div> 
+                <div class="similarMovieText">Iron sky</div> 
+            </div> 
+        </div> 
+    <script src="./script.js"></script>
+    <script>
+        document.querySelector(".similarMovieTitle h2").style.display = "block";
+        showFavs()
+    </script> 
+</body>
+</html>
